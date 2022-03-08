@@ -1,0 +1,139 @@
+.App {
+  background-color: #1f2833;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: hsl(213, 24%, 10%) !important;
+}
+
+.movie__add {
+  margin: 1rem auto;
+}
+
+.add_button {
+  background-color: transparent !important;
+  border: 3px solid #66fcf1 !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+.add_button:hover {
+  background-color: #66fcf1 !important;
+  color: #1f2833 !important;
+}
+
+.modal-button-add {
+  background-color: #66fcf1 !important;
+  border: 2px solid #66fcf1 !important;
+  font-weight: bold !important;
+  color: #1f2833 !important;
+}
+
+.modal-button-add:hover {
+  background-color: #45a29e !important;
+  border: 2px solid #45a29e !important;
+  color: #1f2833 !important;
+}
+
+.modal-button-cancel {
+  border: 2px solid #66fcf1 !important;
+  font-weight: bold !important;
+  color: #fff !important;
+  margin-right: 1rem !important;
+}
+
+.modal-button-cancel:hover {
+  background-color: #45a29e !important;
+  border: 2px solid #45a29e !important;
+  color: #1f2833 !important;
+}
+
+.modal-content {
+  background-color: #1f2833;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid #66fcf1;
+}
+.modal-footer {
+  border-top: 1px solid #66fcf1;
+}
+
+.movies__container {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.moviesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+.movie-card {
+  overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: none;
+  overflow: hidden;
+}
+
+.movie-card-body {
+  height: 100px;
+  background-color: hsl(213, 24%, 10%);
+  color: #fff;
+}
+
+.movie-card-description {
+  background-color: #fff;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: hsl(213, 24%, 10%);
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover .movie-card-description {
+  transform: translateY(0%);
+}
+
+.cardImg {
+  width: 15rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.MuiSvgIcon-root {
+  color: #66fcf1 !important;
+}
+
+.MuiSvgIcon-root:hover {
+  color: #45a29e !important;
+}
+
+.trailer__img {
+  width: 300px;
+  height: 450px;
+}
+
+.trailer_img_video {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.trailer__description {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.trailer__description h3,
+.trailer__description p {
+  color: #fff;
+}
